@@ -1,7 +1,7 @@
 header{
-    background-color:#632580;
+    
     padding: 1em;
-    border-radius: 1em;
+    
     display: flex;
     flex-flow: row;
 }
@@ -9,44 +9,40 @@ h2{
     text-align: center;
     padding: 1em;
     margin: 1em;
-    border-radius: 1em;
+    
 }
 .h2-div{
     background-color: lavender;
     padding: 1em;
     margin: 1em;
-    border-radius: 1em;
+    
 }
 .h2-roman-div{
     background-color: lavender;
     padding: 1em;
     margin: 1em;
-    border-radius: 1em;
+    
 }
 table,th,td{
-    width: 45%;
+    width: 450px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    border-style: solid;
+    margin-bottom: 15%;
+    border-style: ridge;
 }
 
 
 body{
-    
-    background-color: #635b4e;
+    box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.582);
+    background-color: #dbcece;
     padding: 1em;
-    margin: 1em;
+    margin: 1em 1em;
 }
-
-
-   
-
 
 img{
     width: 100%;
-    
-    
+       
 }
 
 
@@ -57,7 +53,7 @@ img{
     height: auto;
     padding: 1em;
     margin: 1em;
-    background-color: mediumorchid;
+    
     border-radius: 1em;
 }
 .fave-content{
@@ -65,7 +61,7 @@ img{
     height: auto;
     padding: 1em;
     margin: 1em;
-    background-color: mediumpurple;
+    
 }
 
 /*div contents of historical places*/
@@ -101,7 +97,7 @@ img{
 }
 
 .cityhall-container{
-    background-color: #632580;
+    
     padding: 1px;
     margin: 1px;
     border-radius: 1em;
@@ -113,7 +109,7 @@ img{
 }
 .castle-container{
     width: 32%;
-    background-color: #632580;
+    
     padding: 1px;
     margin: 1px;
     border-radius: 1em;
@@ -125,7 +121,7 @@ img{
 
 .museum-container{
     width: 32%;
-    background-color: #632580;
+    
     padding: 1px;
     margin: 1px;
     border-radius: 1em;
@@ -138,8 +134,9 @@ img{
 
     /*header img divs beyond this point*/
     .tablemountain-img{
-    
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
     margin: 1em;
     }
     
@@ -165,12 +162,16 @@ img{
         
     }
 
-li{
-    font-size: smaller;
-    line-height: 11px;
-    
+    li{
+        font-size: smaller;
+        line-height: 11px;
+        
 
-}
+    }
+    hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 
 
 
@@ -194,3 +195,11 @@ li{
 
 }
 
+html{
+    background-color: rgb(251, 250, 250);
+}
+h1{
+    text-shadow: honeydew;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(121, 42, 48), 0 0 5px darkblue;
+}
