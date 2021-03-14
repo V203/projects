@@ -1,0 +1,145 @@
+header{
+    background-color:#632580;
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: row;
+}
+h2{
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+.h2-div{
+    background-color: lavender;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+.h2-roman-div{
+    background-color: lavender;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+table,th,td{
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+}
+
+
+body{
+    
+    background-color: #635b4e;
+    padding: 1em;
+    margin: 1em;
+}
+.museum-container{
+    background-color: #632580;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 1em;
+    display: flex;
+    flex-flow:row    ;
+
+}
+.museum-content-div{
+    width: auto;
+    display :flex ;
+    flex-flow: row;
+   
+    
+}
+.img-museum-div{
+    width: auto;
+    
+    height: auto;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 1em;
+}
+.tablemountain-img{
+width: 50%;
+height: auto;
+margin: 1em;
+}
+.master-container{
+    display:flex;
+    flex-flow: row;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 1px;
+    padding: 1px;
+
+}
+
+.fave-country-container{
+    display: flex;
+    flex-flow: row;
+    
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+    background-color: mediumorchid;
+    border-radius: 1em;
+}
+.fave-content{
+    width: 25%;
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+    background-color: mediumpurple;
+}
+.img1-fave ,.img2-fave{
+    margin: 1em;
+}
+
+.cityhall-img{
+   
+}
+
+
+
+
+.cityhall-container{
+    background-color: #632580;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 1em;
+    display: flex;
+    flex-flow:row    ;
+}
+.castle-container{
+    background-color: #632580;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 1em;
+    display: flex;
+    flex-flow:row    ;
+
+}
+li{
+    font-size: smaller;
+    line-height: 11px;
+
+}
+
+@media screen and (max-width: 468px){
+    
+    .master-container{
+        flex-flow: column;
+    }
+    .castle-img{
+        
+        order: 1;
+    }
+
+}
