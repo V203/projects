@@ -1,0 +1,217 @@
+header{
+    
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row;
+}
+h2{
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(121, 42, 48), 0 0 5px darkblue;
+    
+}
+.h2-div{
+
+    padding: 1em;
+    margin: 1em;
+    
+}
+.h2-roman-div{
+    
+    padding: 1em;
+    margin: 1em;
+    
+}
+table,th,td{
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    border-style: ridge;
+}
+
+
+body{
+    box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.582);
+    background-color: beige;
+    padding: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+img{
+    width: 100%;
+       
+}
+
+
+
+.fave-country-container{
+    display: flex;
+    flex-flow: row;  
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+    
+    border-radius: 1em;
+}
+.fave-content{
+    width: 25%;
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+    
+}
+
+/*div contents of historical places*/
+.cityhall-content{
+    width: 50%;
+    display :flex ;
+    flex-flow: row;
+}
+
+.castle-content-div{
+    width: 50%;
+    display :flex ;
+    flex-flow: row;
+
+}
+.museum-content-div{
+    width: 50%;
+    display :flex ;
+    flex-flow: row;
+  
+}
+/*Below container's beyond this point*/
+.master-container{
+    display:flex;
+    flex-flow: row;
+    width: 100%;
+    height: auto;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+
+}
+
+.cityhall-container{
+    
+    padding: 1px;
+    margin: 1px;
+    border-radius: 1em;
+    display: flex;
+    flex-flow:row    ;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.castle-container{
+    width: 32%;
+    
+    padding: 1px;
+    margin: 1px;
+    border-radius: 1em;
+    display: flex;
+    flex-flow:row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.museum-container{
+    width: 32%;
+    
+    padding: 1px;
+    margin: 1px;
+    border-radius: 1em;
+    display: flex;
+    flex-flow:row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    /*header img divs beyond this point*/
+    .tablemountain-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin: 1em;
+    }
+    
+    .img1-fave ,.img2-fave{
+        margin: 1em;
+    }
+
+
+
+    /*historical places img divs beyond this point*/
+    .cityhall-img{
+        width: 50%;
+        height: auto;
+    }
+    .img-museum-div{
+        width: 50%;
+        height: auto;
+       
+    }
+    .castle-img{
+        width: 50%;
+        height: auto;
+        
+    }
+
+    li{
+        font-size: smaller;
+       
+        
+
+    }
+    hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+/*Media query beyond this point*/
+@media screen and (max-width: 640px){
+    
+    .master-container{
+        width: 100%;
+        flex-flow: column;
+    }
+    .castle-container{
+        flex-flow: row-reverse;
+        width: 100%;
+    }
+    .museum-container{
+        width: 100%;
+    }
+    .cityhall-container{
+        width: 100%;
+    }
+
+}
+
+html{
+    background-color: rgb(251, 250, 250);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: honeydew;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(121, 42, 48), 0 0 5px darkblue;
+    text-align: center;
+}
+.intro-pre{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
