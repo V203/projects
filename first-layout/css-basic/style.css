@@ -54,7 +54,7 @@ img{
 
 .fave-country-container{
     display: flex;
-    flex-flow: row;  
+    flex-flow: row;  column
     height: auto;
     padding: 1em;
     margin: 1em;
@@ -168,7 +168,7 @@ img{
     }
 
     li{
-        font-size: smaller;
+        font-size: xx-small;
        
         
 
@@ -181,11 +181,11 @@ img{
 
 
 /*Media query beyond this point*/
-@media screen and (max-width: 640px){
+@media screen and (max-width: 840px){
     
     .master-container{
         width: 100%;
-        flex-flow: column;
+        flex-flow: row;
     }
     .castle-container{
         flex-flow: row-reverse;
@@ -193,10 +193,9 @@ img{
     }
     .museum-container{
         width: 100%;
+        flex-flow: row;
     }
-    .cityhall-container{
-        width: 100%;
-    }
+    
 
 }
 
@@ -214,4 +213,8 @@ h1{
     
     margin-left: auto;
     margin-right: auto;
+}
+
+li{
+    font-size: xx-small;
 }
