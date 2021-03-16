@@ -45,8 +45,8 @@ body{
     margin-top: 20px;
 }
 
-img{
-    width: 100%;
+img1-fave{
+    width: 50%;
        
 }
 
@@ -58,15 +58,25 @@ img{
     height: auto;
     padding: 1em;
     margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
     
-    border-radius: 1em;
+    
 }
 .fave-content{
-    width: 25%;
+    width: 50%;
     height: auto;
-    padding: 1em;
-    margin: 1em;
     
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:  0%;
+    padding-top: 0%;
+
+    
+}
+p{
+    margin-top:  0%;
+    padding-top: 0%;
 }
 
 /*div contents of historical places*/
@@ -145,8 +155,9 @@ img{
     margin: 1em;
     }
     
-    .img1-fave ,.img2-fave{
-        margin: 1em;
+    .img1-fave{
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -168,7 +179,7 @@ img{
     }
 
     li{
-        font-size: smaller;
+        font-size: xx-small;
        
         
 
@@ -181,21 +192,32 @@ img{
 
 
 /*Media query beyond this point*/
-@media screen and (max-width: 640px){
+@media screen and (max-width: 769px){
     
     .master-container{
         width: 100%;
         flex-flow: column;
     }
     .castle-container{
-        flex-flow: row-reverse;
+        flex-flow: column-reverse;
         width: 100%;
     }
     .museum-container{
         width: 100%;
+        flex-flow: column-reverse;
     }
     .cityhall-container{
         width: 100%;
+        flex-flow: column-reverse;
+    }
+    header{
+        flex-flow: column;
+    }
+    .fave-country-container{
+        flex-flow: column;
+    }
+    .intro-pre{
+        flex-flow: column;
     }
 
 }
@@ -209,9 +231,34 @@ h1{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(121, 42, 48), 0 0 5px darkblue;
     text-align: center;
+    margin-right: 0%;
+    padding-right: 0%;
 }
 .intro-pre{
+    display: flex;
     
     margin-left: auto;
     margin-right: auto;
+}
+.me-name{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.me-pic{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    font-size: xx-small;
+}
+ul{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.h6squad{
+    display: inherit;
 }
